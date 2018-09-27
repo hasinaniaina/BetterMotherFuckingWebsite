@@ -36,10 +36,10 @@ h1, h2, h3{
 	border-radius: 5px 5px 5px 5px;
 	text-align: center;
 	overflow: hidden;
-	padding: 20px;
+	padding: 10px;
 }
 .img-xx>img{
-	max-width: 63%;
+	max-width: 50%;
 }
 
 
