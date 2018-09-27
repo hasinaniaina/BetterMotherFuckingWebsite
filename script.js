@@ -33,6 +33,10 @@ bleu[0].onclick = function(){
 		for(var i = 0; i < h1.length; i++){
 			h1[i].style.color = "blue";
 		}
+	var h3 = document.querySelector('body').getElementsByTagName('h3');
+		for(var i = 0; i < h3.length; i++){
+			h3[i].style.color = "blue";
+		}
 }
 
 vert[0].onclick = function(){
@@ -44,6 +48,10 @@ vert[0].onclick = function(){
 	var h2 = document.querySelector('body').getElementsByTagName('h2');
 		for(var i = 0; i < h2.length; i++){
 			h2[i].style.color = "green";
+		}
+	var h3 = document.querySelector('body').getElementsByTagName('h3');
+		for(var i = 0; i < h3.length; i++){
+			h3[i].style.color = "green";
 		}
 	
 }
@@ -58,6 +66,10 @@ police[0].onclick = function(){
 			h2[i].style.fontFamily = "Arial";
 		}
 	var h1 = document.querySelector('body').getElementsByTagName('h1');
+		for(var i = 0; i < h1.length; i++){
+			h1[i].style.fontFamily = "Arial";
+		}
+	var h3 = document.querySelector('body').getElementsByTagName('h3');
 		for(var i = 0; i < h1.length; i++){
 			h1[i].style.fontFamily = "Arial";
 		}
